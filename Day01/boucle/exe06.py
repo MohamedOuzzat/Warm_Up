@@ -18,4 +18,4 @@ while nombre!=1:
     
     else:
         nombre = (nombre * 3) + 1
-    print(nombre)
+    print(nombre) 
