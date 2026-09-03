@@ -1,5 +1,11 @@
-notes_etudiants = {"Omar": 15, "Sara": 8, "Yassine": 17, "Imane": 11, "Hamza": 6, "Nadia":
-14}
+notes_etudiants = {
+                    "Omar": 15, 
+                   "Sara": 8, 
+                   "Yassine": 17, 
+                   "Imane": 11, 
+                   "Hamza": 6, 
+                   "Nadia":14
+                   }
 
 note_sup={}
 note_inf={}

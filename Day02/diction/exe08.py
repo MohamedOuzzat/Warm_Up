@@ -21,12 +21,11 @@ for ele in ventes:
     count+=ele["quantite"]*ele["prix"]
 
 print(count)
+
+maxPricedItem = max(ventes, key=lambda x:x['prix'])
+print(maxPricedItem)
+
 # for ele in ventes:
 #    for key,value in ele.items():
 #        if key=="prix":
 #            print(max(ele["prix"]))
-
-
-
-maxPricedItem = max(ventes, key=lambda x:x['prix'])
-print(maxPricedItem)

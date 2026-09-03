@@ -9,9 +9,6 @@ etudiant = {
 }
 
 
-# for key,value in etudiant.items():
-#     for elemnt in value:
-#         elemnt["niveau"]="Expert"
 
 etudiant["formation"]["niveau"]="Expert"
 li=["Python", "SQL", "Pandas", "Machine Learning"] 
@@ -19,4 +16,9 @@ li=["Python", "SQL", "Pandas", "Machine Learning"]
 etudiant["technologies"]=li
 
 print(etudiant)
+
+# for key,value in etudiant.items():
+#     for elemnt in value:
+#         elemnt["niveau"]="Expert"
+
 

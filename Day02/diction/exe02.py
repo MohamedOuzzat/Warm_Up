@@ -12,9 +12,11 @@ Supprimer "stock" avec del et "categorie"
 avec pop() .
 """
 produit = {
- "nom": "Ordinateur", "prix": 8500,
- "stock": 12, "categorie":
-"Informatique"
+ "nom": "Ordinateur", 
+ "prix": 8500,
+ "stock": 12, 
+ "categorie":
+ "Informatique"
 }
 
 produit["prix"]=7900
