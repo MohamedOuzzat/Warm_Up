@@ -1,5 +1,5 @@
 class Voiture:
-    def __init__(self,marque:str,modele:str,prix:float,kilometrage:int =0):
+    def __init__(self,marque:str,modele:str,prix:float|int,kilometrage:int =0):
         self.marque=marque
         self.modele=modele
         self.prix=prix
@@ -57,10 +57,9 @@ class Concession:
 
 c=Concession("Concession du Centre")
 
-v1=VoitureElectrique("cybertrack","Tesla",20000,987896,"auto")
+v1=VoitureElectrique("cybertrack","Tesla",20000,987896,"theorique ")
 v2=Voiture("dacia","logan",2000,32442)
-v3=Voiture("mercides","G-class",9203,99282)
-v4=Voiture("hello","idksdk",989,908)
+v3=Voiture("mercedes","G-class",9203,99282)
 
 Voitures=[v1,v2,v3]
 for v in Voitures:
