@@ -10,9 +10,9 @@ clients=np.array([
                 ])
 
 clients[2,3]=19
-clients[2]=[12,13,14,15]
+# clients[2]=[12,13,14,15]
 
 new_clients=clients.copy()
 
 print(clients)
-print(new_clients)
+# print(new_clients)

@@ -22,3 +22,5 @@ print(f"les ventes totales par mois {v_total_mois}")
 print(f"le moyennes par mois {moyenne_mois}")
 print(f"le meilleur produit {meilleur_produit}")
 print(f"le meilleur mois {meilleur_mois}")
+
+print(ventes.shape)

@@ -7,5 +7,10 @@ print(f"variance : {np.var(salaires)}")
 print(f"écart-type : {np.std(salaires)}")
 print(f"minimum : {salaires.min()}")
 print(f"maximum : {salaires.max()}")
-print(salaires[0:2])
-print(f"le porcentage 50% : {np.percentile(salaires,50)}")
+q1 = np.percentile(salaires, 25)
+q3 = np.percentile(salaires, 75)
+
+print(f"1er Quartile (Q1) :{q1}")
+print(f"3eme Quartile (Q3) :{q3}")
+
+# print(f"le porcentage 50% : {np.percentile(salaires,50)}")
